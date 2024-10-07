@@ -1,0 +1,14 @@
+[package]
+name = "monero_web"
+version = "0.0.1"
+edition = "2021"
+description = "Monero for use on the web."
+repository = "https://github.com/ManyMath/monero-web-rust"
+license = "MIT"
+
+[dependencies]
+
+[lib]
+name = "monero_web"
+path = "src/lib.rs"
+crate-type = ["cdylib", "staticlib"]
